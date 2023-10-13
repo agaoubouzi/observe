@@ -13,8 +13,8 @@ This code demonstrates how to use the Intersection Observer API to create dynami
 ## Usage
 
 1. Include the JavaScript code in your HTML document.
-   as CDN : <script src="https://cdn.jsdelivr.net/gh/agaoubouzi/observe/script.js"></script>
-   as NPM : npm i char-observe
+   - CDN : <script src="https://cdn.jsdelivr.net/gh/agaoubouzi/observe/script.js"></script>
+   - NPM : npm i char-observe
 
 3. Define your HTML elements with the `data-observe` attribute and specify the animation type and speed using the `data-observe-vitess` attribute. For example:
 

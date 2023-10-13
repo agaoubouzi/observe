@@ -1,24 +1,24 @@
 // Define your CSS styles as a string
 const observeStyles = `
-.phrase {
+[data-observe="up"] .phrase, [data-observe="down"] .phrase {
   visibility: hidden;
 }
 
-.in-viewport .phrase {
+[data-observe].in-viewport .phrase {
   visibility: visible;
 }
 
-.phrase .space {
+[data-observe] .phrase .space {
   margin-left: .35em;
 }
 
-.phrase .word {
+[data-observe] .phrase .word {
   overflow: hidden;
   display: inline-block;
   line-height: initial;
 }
 
-.phrase .word .char {
+[data-observe] .phrase .word .char {
   display: inline-block;
   line-height: initial;
 }
@@ -50,7 +50,7 @@ const observeStyles = `
 
 }
 
-.hidden {
+[data-observe] .hidden {
   display: none !important;
 }
 
